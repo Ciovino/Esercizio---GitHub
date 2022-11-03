@@ -4,17 +4,17 @@
 */
 
 .immagine-post {
-    width: 30%;
+    width: 45%;
 }
 
 .item{
     flex-basis: 100%;
 }
 
-.bb {
-    border-bottom: 2px dashed #0d6efd;
-}
-
 div#da-fare {
     display: none;
+}
+
+main {
+    visibility: hidden;
 }
