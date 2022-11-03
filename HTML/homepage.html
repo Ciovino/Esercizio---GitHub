@@ -27,7 +27,7 @@
                 <li class="nav-item"> <a class="nav-link" href="contatti.html" title="Chi siamo">Contatti</a> </li>
             </ul>
 
-            <a class="order-3 text-center text-decoration-none item" href="login.html" title="Entra nel sito">Login</a>
+            <a class="order-3 text-center no-underline item" href="login.html" title="Entra nel sito">Login</a>
         </div>
 
         <div id="secondo-header" class="border-bottom border-5 border-primary mt-1">
@@ -37,10 +37,10 @@
 
     <div class="row flex-row-reverse m-0">
         <main class="col-9 p-3">
-            <article class="row d-flex align-items-center gx-2">
+            <article class="row d-flex align-items-center gx-2 mb-1">
                 <div class="col-6 p-1 border border-primary  border-2 rounded-3">
                     <div class="d-flex justify-content-between align-items-center mb-1">
-                        <h3 class="pe-2 m-0"> <a class="text-decoration-none" href="CSS.html" title="Post sul CSS">CSS</a> </h3>
+                        <h3 class="pe-2 m-0"> <a class="no-underline" href="CSS.html" title="Post sul CSS">CSS</a> </h3>
                         <div class="btn-group dropstart">
                             <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                 Tag
@@ -52,12 +52,36 @@
                             </ul>
                         </div>
                     </div>
-                    <p class="fs-4"> CSS sta per Cascading Style Sheet e in questo post ne parleremo meglio </p>
-                    <p class="text-end"> 10 Ottobre 2022 <a class="text-decoration-none" href="CSS.html#commenti" title="Commenti al post sul CSS">1 commento</a> </p>
+                    <p class="fs-4"> CSS sta per Cascading Style Sheet e in questo post ne parleremo meglio. </p>
+                    <p class="text-end"> 10 Ottobre 2022 <a class="no-underline" href="CSS.html#commenti" title="Commenti al post sul CSS">1 commento</a> </p>
                 </div>
                 
                 <div class="col-6">
-                    <img class="w-100 rounded-5" src="../Immagini/immagine.jpg" alt="Immagine del post">
+                    <img class="w-100 rounded-5 img-post-size" src="../Immagini/immagine.jpg" alt="Immagine del post">
+                </div>                
+            </article>
+
+            <article class="row d-flex align-items-center gx-2 mb-1">
+                <div class="col-6 p-1 border border-primary  border-2 rounded-3">
+                    <div class="d-flex justify-content-between align-items-center mb-1">
+                        <h3 class="pe-2 m-0"> <a class="no-underline" href="Carmelo.html" title="Post su Carmelo">Carmelo</a> </h3>
+                        <div class="btn-group dropstart">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                Tag
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">#Fratello</a></li>
+                                <li><a class="dropdown-item" href="#">#Pazzurdo</a></li>
+                                <li><a class="dropdown-item" href="#">#Carmelo</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="fs-4"> Cosa si prova nell'essere Carmelo? Lo scopriremo in questo post. </p>
+                    <p class="text-end"> 3 Novembre 2022 <a class="no-underline" href="Carmelo.html#commenti" title="Commenti al post su Carmelo">104 commenti</a> </p>
+                </div>
+                
+                <div class="col-6">
+                    <img class="w-100 rounded-5 img-post-size" src="../Immagini/Carmelo.jpg" alt="Immagine del post">
                 </div>                
             </article>
         </main>
@@ -84,14 +108,12 @@
         </aside>
     </div>
 
-    <div id="da-fare">
-        <footer>
-            <p> 2022-2023 IAW - Politecnico di Torino </p>
-            <!-- Inserire icone social e mail -->
-            <p> Instagram </p>
-            <p> <a href="mailto:test@polito.it"> Email </a> </p>
+        <footer class="border-top border-3 p-2 text-center">
+            <p> 2022-2023 IAW - Politecnico di Torino 
+                <a class="no-underline" href="#"> <img src="../Immagini/Instagram icon.png" alt="Instagram"> </a>
+                <a class="no-underline" href="mailto:test@polito.it"> <img src="../Immagini/Email icon.png" alt="Email"> </a>
+            </p>
         </footer>
-    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
