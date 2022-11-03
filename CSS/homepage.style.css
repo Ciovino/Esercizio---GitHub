@@ -3,18 +3,10 @@
     Descrizione: Stile della homepage
 */
 
-.immagine-post {
-    width: 45%;
-}
-
 .item{
     flex-basis: 100%;
 }
 
 div#da-fare {
     display: none;
-}
-
-main {
-    visibility: hidden;
 }
