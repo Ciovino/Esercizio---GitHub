@@ -3,55 +3,18 @@
     Descrizione: Stile della homepage
 */
 
-body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 .immagine-post {
     width: 30%;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: lightskyblue;
-    padding-left: 1rem;
+.item{
+    flex-basis: 100%;
 }
 
-header > div {
-    flex: 2;
+.bb {
+    border-bottom: 2px dashed #0d6efd;
 }
 
-header > nav {
-    flex: 1;
-}
-
-.container {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row-reverse;
-}
-
-aside {
-    flex: 1;
-    background-color: rgb(240, 240, 240);
-}
-
-main {
-    flex: 3;
-}
-
-/* Media query per design responsive */
-@media screen and (max-width: 600px) {
-    aside {
-        display: none;
-    }
-
-    .container {
-        flex-direction: column-reverse;
-    }
-
-    .immagine-post {
-        width: 60%;
-    }
+div#da-fare {
+    display: none;
 }
