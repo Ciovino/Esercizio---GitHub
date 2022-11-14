@@ -1,0 +1,17 @@
+{% extends "HTML/base.html" %}
+{% block titolo %}{{post.title}}{% endblock %}
+{% block contenuto %}
+<article class="post">
+    <h3> <a href="#" title="Post sul {{post.titolo}}"> {{post.titolo}} </a> </h3>
+    <p> {{post.data}} </p>
+    <p> <strong> Tag: </strong> <a href="#"> {{post.tag}} </a> </p>
+    <p> {{post.contenuto}} </p>
+    <img class="immagine-post" src="{{ url_for('static', filename='Immagini/' + post.titolo.lower() + '.jpg') }}"
+        alt="Immagine del post">
+    <h4> <a href="#" title="Commenti al post sul {{post.titolo}}"> (Commenti) 2 </a> </h4>
+    <ol>
+        <li>Bellissimo post</li>
+        <li>Concordo</li>
+    </ol>
+</article>
+{% endblock %}
