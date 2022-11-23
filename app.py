@@ -8,14 +8,14 @@ posts = [
 
 @app.route('/')
 def homepage():
-    return render_template('HTML/homepage.html', posts=posts)
+    return render_template('homepage.html', posts=posts)
 
 @app.route('/posts/<int:id>')
 def singlepost(id):
     post = posts[id-1]
-
-    return render_template('HTML/single.html', post=post)
+    
+    return render_template('single.html', post=post)
 
 @app.route('/about')
 def presentazione():
-    return render_template('HTML/presentazione.html')
+    return render_template('presentazione.html')
